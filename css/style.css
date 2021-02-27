@@ -16,7 +16,7 @@
 }
 .datum_logo{
     width:11.153125rem;
-    height: 2.468vw;
+    height: 2.962rem;
 }
 .header_sec{
     height:6.5rem;
@@ -84,6 +84,7 @@
     height:43.1875rem;
     width:22.8125rem;
 }
+
 .circle__round__icon{
     width: 1rem;
     height: 1rem;
@@ -122,6 +123,24 @@
 }
 
 /* ---Hover-effect--- */
+.match__img{
+    cursor:pointer;
+    transition: transform .4s ease;
+}
+.match__img:hover{
+    transform: scale(1.1);
+
+}
+.dating__mob_img{
+    cursor:pointer;
+    transform-origin: 0 0;
+    transition: transform .25s, visibility .25s ease-in;
+
+}
+.dating__mob_img:hover{
+    transform: scale(1.1);
+
+}
 .datum_logo:hover{
     transition: 0.70s;
     -webkit-transition: 0.70s;
@@ -155,15 +174,7 @@
     color: #1C1B46;
 }
 /* ----------------------- */
-.our__app p{
-    font-family: product-sans-regular;
-    font-size: 1.1875rem;
-    color:#484848;
-}
-.our__app img{
-   width: 125px;
-   height: 39px;
-}
+
 .match__img{
     width:17.062rem;
     height: 29.625rem;
@@ -174,12 +185,10 @@
 .footer__bottom_sec p{
     font-family: product-sans-regular;
     font-size: 1.1875rem;
-
 }
 .dot{
     height:0.4375rem;
     width:0.4375rem;
     background-color:#FFFFFF;
-    display: inline-block;
-    
+    display: inline-block; 
 }
