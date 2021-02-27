@@ -1,0 +1,9 @@
+@media only screen and (max-width: 700px) {
+    .login_btn{
+        width: 7rem;
+    }
+    .header_sec{
+        padding-right:0;
+    }
+}
+

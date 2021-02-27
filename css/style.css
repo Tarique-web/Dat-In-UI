@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 0.52083333333333336vw; 
+
+}
+
+
+@font-face{
+    src: url(../font/product-sans/Product\ Sans\ Bold.ttf);
+    font-family: product-sans-bold;
+}
+@font-face{
+    src: url(../font/product-sans/Product\ Sans\ Regular.ttf);
+    font-family: product-sans-regular;
+}
+.datum_logo{
+    width:11.153125rem;
+    height: 2.468vw;
+}
+.header_sec{
+    height:6.5rem;
+    background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+    
+}
+.login_btn{
+    width: 9.25rem;
+    /* width:7.7083vw; */
+    height: 3.25rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FFFFFF83;
+    border-radius: 4px;
+    border: none;
+}
+.login_text{
+    font-size:1.25rem;
+    color: #F53070;
+    font-family: product-sans-bold;
+}
+.toggle_btn_img{
+    width: 3.25rem;
+    height: 3.25rem;
+}
+.nabar_banner_sec{
+    background: url('../images/beautiful-clouds-couple-date-340566.png') no-repeat bottom center/cover;
+}
+.swipe_life_sec{
+    background: transparent linear-gradient(92deg, #FC6750 0%, #E73B52 100%) 0% 0% no-repeat padding-box;
+    height: 4.1875rem;
+}
+.swipe_text{
+    font-size: 2rem;
+    font-family: product-sans-bold;
+}
+.banner_sec_box{
+    width:40.677083333333336VW;
+    
+}
+.banner_sec_wraper{
+    padding-bottom:5.07668VW;
+}
+.banner_sec_box h1{
+    font-family: product-sans-bold;
+    font-size:8.332vw;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    line-height: 1;
+
+}
+.features_info_text{
+    width: 328px;
+}
+.banner_sec_btn button{
+        background: transparent linear-gradient(270deg, #FC6750 0%, #E73B52 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #F4585183;
+        border-radius: 4px;
+        width: 9.25rem;
+        height:3.25rem;
+        font-size: 1.25rem;
+        border: none;
+}
+
+.dating__mob_img{
+    height:43.1875rem;
+    width:22.8125rem;
+}
+.circle__round__icon{
+    width: 1rem;
+    height: 1rem;
+    background: transparent linear-gradient(180deg, #FC6750 0%, #E73B52 100%) 0% 0% no-repeat padding-box;
+}
+
+.features__text{ 
+    font-family: product-sans-bold;
+    font-size: 1.75rem;
+    color: #474747;
+    letter-spacing: -0.84px;
+   
+}
+.features__text__sec p{
+    text-align: left;
+    font-family: product-sans-regular;
+    letter-spacing: -0.57px;
+    color: #AEAEAE;
+    font-size: 1.1875rem;
+  
+}
+.Selective_text{
+    font-size: 1.75rem;
+    font-family: product-sans-bold;
+    letter-spacing: -0.84px;
+    color: #474747;
+}
+
+.app__features p {
+    font-family: product-sans-regular;
+    font-size: 1.1875rem;
+    color: #AEAEAE;
+}
+.app__features_sec{
+    background-color: #F8F9FF;
+}
+
+/* ---Hover-effect--- */
+.datum_logo:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.imge__hover:hover{
+    transform: scale(1.1);
+}
+.imge__hover{
+    cursor:pointer;
+    transition: transform .4s ease;
+}
+.datum_logo{
+    cursor:pointer;
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+}
+.our__app h1{
+    font-family: product-sans-bold;
+    font-size: 1.875;
+    color: #1C1B46;
+}
+/* ----------------------- */
+.our__app p{
+    font-family: product-sans-regular;
+    font-size: 1.1875rem;
+    color:#484848;
+}
+.our__app img{
+   width: 125px;
+   height: 39px;
+}
+.match__img{
+    width:17.062rem;
+    height: 29.625rem;
+}
+.footer__bottom_sec{
+    height: 6.25rem;
+}
+.footer__bottom_sec p{
+    font-family: product-sans-regular;
+    font-size: 1.1875rem;
+
+}
+.dot{
+    height:0.4375rem;
+    width:0.4375rem;
+    background-color:#FFFFFF;
+    display: inline-block;
+    
+}
