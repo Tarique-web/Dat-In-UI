@@ -44,6 +44,7 @@ $(document).ready(function () {
             $('.header_sec').removeClass('header_sticky_shadow')
             $('.header_sec').addClass('header__shadow__sec')
             $('.datum_logo_black').removeClass("d-none")
+            $('.datum_logo_white').addClass('d-none')
 
         }
         else {
@@ -52,6 +53,8 @@ $(document).ready(function () {
 
             $('.header_sec').addClass('header_sticky_shadow')
             $('.datum_logo_black').addClass("d-none")
+            $('.datum_logo_white').removeClass('d-none')
+
 
 
 
