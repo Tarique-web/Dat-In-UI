@@ -136,6 +136,11 @@
     cursor: pointer;
     color: #150054;
 }
+.login_btn:hover {
+    background:cyan;
+    transition:all .5s ease;
+
+}
 .features__text:hover{
     cursor: pointer;
     color: #150054;
