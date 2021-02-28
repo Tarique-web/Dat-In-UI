@@ -1,3 +1,9 @@
+@media only screen and(max-width:1250px){
+    .login_btn{
+        width: 7rem;
+    }
+
+}
 @media only screen and (max-width: 700px) {
     .login_btn{
         width: 7rem;
@@ -15,6 +21,10 @@
     .login_btn{
         display: none;
     }
+    .drop__down__menu{
+        display: block;
+    }
+    
     .match__img{
         width:14rem;
         height: 24rem;

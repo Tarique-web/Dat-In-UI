@@ -54,11 +54,6 @@ $(document).ready(function () {
             $('.header_sec').addClass('header_sticky_shadow')
             $('.datum_logo_black').addClass("d-none")
             $('.datum_logo_white').removeClass('d-none')
-
-
-
-
-
         }
     }, {
         offset: '60px;'

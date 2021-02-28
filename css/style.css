@@ -224,3 +224,10 @@
     background-color:#FFFFFF;
     box-shadow: 0 2px 2px #efefef;
 }
+.dropdown-menu{
+    min-width: 0rem;
+    margin: 1.125rem 0;   
+}
+.drop__down__menu{
+    display: none;
+}
