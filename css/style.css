@@ -20,9 +20,12 @@
 }
 .header_sec{
     height:6.5rem;
-    background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
     
 }
+.header_sticky_shadow{
+    background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+}
+
 .login_btn{
     width: 9.25rem;
     /* width:7.7083vw; */
@@ -210,4 +213,15 @@
     width:0.4375rem;
     background-color:#FFFFFF;
     display: inline-block; 
+}
+/* --------Sticky-top---- */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+    height:4rem;
+    background-color:#FFFFFF;
+    box-shadow: 0 2px 2px #efefef;
 }
