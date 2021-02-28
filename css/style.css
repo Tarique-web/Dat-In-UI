@@ -40,6 +40,7 @@
 .toggle_btn_img{
     width: 3.25rem;
     height: 3.25rem;
+    cursor: pointer;
 }
 .nabar_banner_sec{
     background: url('../images/beautiful-clouds-couple-date-340566.png') no-repeat bottom center/cover;
@@ -51,6 +52,7 @@
 .swipe_text{
     font-size: 2rem;
     font-family: product-sans-bold;
+    cursor: pointer;
 }
 .banner_sec_box{
     width:40.677083333333336VW;
@@ -123,6 +125,18 @@
 }
 
 /* ---Hover-effect--- */
+.Selective_text:hover{
+    cursor: pointer;
+    color: #150054;
+}
+.features__text:hover{
+    cursor: pointer;
+    color: #150054;
+}
+.footer_text:hover{
+    color: #150054;
+}
+
 .match__img{
     cursor:pointer;
     transition: transform .4s ease;
@@ -185,6 +199,8 @@
 .footer__bottom_sec p{
     font-family: product-sans-regular;
     font-size: 1.1875rem;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 .dot{
     height:0.4375rem;
