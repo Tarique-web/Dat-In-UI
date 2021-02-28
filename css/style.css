@@ -124,6 +124,10 @@
     background-color: #F8F9FF;
 }
 
+.checkout__sec img{
+    cursor: pointer;
+}
+
 /* ---Hover-effect--- */
 .Selective_text:hover{
     cursor: pointer;
@@ -138,7 +142,6 @@
 }
 
 .match__img{
-    cursor:pointer;
     transition: transform .4s ease;
 }
 .match__img:hover{

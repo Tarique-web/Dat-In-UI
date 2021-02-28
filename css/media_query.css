@@ -2,12 +2,24 @@
     .login_btn{
         width: 7rem;
     }
-    
+    .datum_logo {
+        width: 9.5VW;
+        height: 2.965rem;
+    }
+
 
 }
 @media only screen and (max-width:967px){
     .login_btn{
         display: none;
+    }
+    .match__img{
+        width:14rem;
+        height: 24rem;
+    }
+    .dating__mob_img{
+        height: 34rem;
+        width: 17rem;
     }
 }
 
