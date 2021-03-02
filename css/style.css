@@ -137,35 +137,27 @@
 }
 
 /* ---Hover-effect--- */
-.Selective_text:hover{
-    cursor: pointer;
-    color: #150054;
-}
-.login_btn_sec button:hover {
-    border:1px solid #E73B52;
-}
-.features__text:hover{
-    cursor: pointer;
-    color: #150054;
-}
 
+.Selective_text:hover,.features__text:hover{
+    cursor: pointer;
+    background: -webkit-linear-gradient(180deg,#FC6750 0%,#E73B52 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .match__img{
     transition: transform .4s ease;
 }
 .match__img:hover{
     transform: scale(1.1);
-
 }
 .dating__mob_img{
     cursor:pointer;
     transform-origin: 0 0;
     transition: transform .25s, visibility .25s ease-in;
-
 }
 .dating__mob_img:hover{
     transform: scale(1.1);
-
 }
 .datum_logo:hover{
     transition: 0.70s;
