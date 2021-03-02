@@ -26,7 +26,7 @@
     background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
 }
 
-.login_btn{
+.login_btn_sec button{
     /* width: 9.25rem; */
     width:7.7083vw;
     height: 3.25rem;
@@ -34,6 +34,7 @@
     box-shadow: 0px 3px 6px #FFFFFF83;
     border-radius: 4px;
     border: none;
+    outline: none;
 }
 .login_text{
     font-size:1.25rem;
@@ -83,6 +84,7 @@
         height:3.25rem;
         font-size: 1.25rem;
         border: none;
+        outline: none;
 }
 
 .dating__mob_img{
@@ -130,24 +132,23 @@
 .checkout__sec img{
     cursor: pointer;
 }
+.checkout__sec h1{
+    color: #1C1B46;
+}
 
 /* ---Hover-effect--- */
 .Selective_text:hover{
     cursor: pointer;
     color: #150054;
 }
-.login_btn:hover {
-    background:cyan;
-    transition:all .5s ease;
-
+.login_btn_sec button:hover {
+    border:1px solid #E73B52;
 }
 .features__text:hover{
     cursor: pointer;
     color: #150054;
 }
-.footer_text:hover{
-    color: #150054;
-}
+
 
 .match__img{
     transition: transform .4s ease;
