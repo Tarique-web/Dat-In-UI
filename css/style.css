@@ -34,7 +34,6 @@
     box-shadow: 0px 3px 6px #FFFFFF83;
     border-radius: 4px;
     border: none;
-    outline: none;
 }
 .login_text{
     font-size:1.25rem;
@@ -84,7 +83,7 @@
         height:3.25rem;
         font-size: 1.25rem;
         border: none;
-        outline: none;
+        
 }
 
 .dating__mob_img{
@@ -142,9 +141,8 @@
     cursor: pointer;
     background: -webkit-linear-gradient(180deg,#FC6750 0%,#E73B52 100%);
     -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
-
 
 .match__img{
     transition: transform .4s ease;
