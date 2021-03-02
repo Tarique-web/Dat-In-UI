@@ -132,6 +132,9 @@
 }
 .checkout__sec h1{
     color: #1C1B46;
+    font-family: product-sans-bold;
+    font-size: 1.875rem;
+
 }
 
 /* ---Hover-effect--- */
